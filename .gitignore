@@ -1,8 +1,7 @@
 .vscode
 __pycache__
 venv
-
-coffee_shop_submission/
+.env
 
 # OS generated files #
 ######################
