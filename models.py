@@ -7,8 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-database_name = os.environ.get('DB_NAME')
-database_path = os.environ.get('DB_PATH')
+database_path = os.environ.get('DATABASE_URL')
 
 db = SQLAlchemy()
 
